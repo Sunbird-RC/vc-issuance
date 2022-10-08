@@ -30,3 +30,4 @@ Contributions are what make the open source community such an amazing place to b
 * Push to the Branch <code> git push origin NewBranchName </code>
 * Open a Pull Request with description <code>fixes #(issue_link)</code>
 
+[Design System](https://www.figma.com/file/j0Rl8R0xVKMko2EzxPW3rE/Sunbird-RC-Design-System?node-id=59%3A296)
