@@ -7,3 +7,5 @@
 [Issues](https://github.com/Sunbird-RC/vc-issuance/issues)
 
 [Swagger UI](https://sbrc-swagger.tiiny.site)
+
+[Discussions](https://github.com/Sunbird-RC/vc-issuance/discussions)
