@@ -1,4 +1,6 @@
 body {
+  display: block;
+  background: #F7F8FC;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,152 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.header-component {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  position: sticky;
+}
+
+.logo {
+  padding: 0px 20px;
+}
+
+.register-issuer-body {
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+
+.register-issuer-container {
+  height: 70vh;
+  padding: 20px;
+}
+
+.registration-form-card {
+  width: 40vw;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  height: 60vh;
+  padding: 20px;
+}
+
+.container-content {
+  padding: 5px;
+}
+
+.issuer-header {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.input-button-row {
+  display: flex;
+  flex-grow: 1;
+}
+
+.text-input {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+}
+
+.text-input-inline {
+  display: inline;
+  flex-grow: 4;
+}
+
+.register-button-div {
+  display: flex;
+  justify-content: end;  
+}
+
+.register-text-button {
+  background: transparent !important;
+  border-radius: 0px !important;
+  color: #1987B6 !important;
+}
+
+.register-text-button:hover {
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.add-logo-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  color: #8D9091;
+}
+
+.register-button {
+    padding: 10px 20px;
+    color: white;
+    background: #1987B6;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-button:hover {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.logo-image-picker {
+  box-sizing: border-box;
+  width: 107px;
+  height: 105px;
+  left: 0px;
+  top: 52px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-text {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.label-text-optional {
+  color: #8D9091;
+  font-weight: 400;
+}
+
+.form-subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 15px 5px;
+}
+
+
+.label-subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8D9091;
+}
+
+
+.file_upload {
+  display: none;
 }
