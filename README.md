@@ -9,3 +9,5 @@
 [Swagger UI](https://sbrc-swagger.tiiny.site)
 
 [Discussions](https://github.com/Sunbird-RC/vc-issuance/discussions)
+
+[Design System](https://www.figma.com/file/j0Rl8R0xVKMko2EzxPW3rE/Sunbird-RC-Design-System?node-id=59%3A296)
