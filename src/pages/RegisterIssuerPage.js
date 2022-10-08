@@ -19,7 +19,7 @@ export const RegisterIssuerPage = () => {
                             <label id = "fileUpload" className='logo-image-picker add-logo-text'>
                                 Add Logo
                             </label>
-                            <input id = "fileUpload" type="file" class="file_upload" />
+                            <input id = "fileUpload" type="file" className="file_upload" />
                         </div>
 
                         <div className='container-content'>
