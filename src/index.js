@@ -17,14 +17,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     //Disabled keycloak login iframe check in development environment because of cross site cookies being stored by iframe.
     //Certain browsers will have strict policies enabled for cookies.
-    <ReactKeycloakProvider
-        initOptions={{onLoad: 'login-required', checkLoginIframe: false}}
-        authClient={keycloak}
-        onEvent={eventLogger}
-        onTokens={tokenLogger}
-    >
+    // <ReactKeycloakProvider
+    //     initOptions={{onLoad: 'login-required', checkLoginIframe: false}}
+    //     authClient={keycloak}
+    //     onEvent={eventLogger}
+    //     onTokens={tokenLogger}
+        
+    // >
         <AppRouter/>
-    </ReactKeycloakProvider>
+    /* </ReactKeycloakProvider> */
 )
 ;
 
