@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import { useKeycloak } from '@react-keycloak/web'
 
-export default () => {
+export const Home = () => {
     const { keycloak } = useKeycloak()
 
 
